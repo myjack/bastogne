@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+body {
+    padding-top: 70px;
+}
+#wrap {
+    min-height: 500px;
+}
+
+.post h1 {
+    font-size: 25px;
+}
+
+#search-data {
+    position: absolute;
+}
+
+
+
+footer {
+    padding: 30px;
+    background-color: #444749;
+    color: #fff;
+}
+
+.navbar {
+    border-radius: 0px;
+}
