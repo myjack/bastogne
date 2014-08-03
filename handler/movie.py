@@ -1,6 +1,3 @@
-import tornado.web
-from tornado.web import authenticated
-from handler import base
 from .base import BaseHandler
 
 
