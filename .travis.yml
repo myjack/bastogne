@@ -4,10 +4,10 @@ python:
 
 services:
   - mongodb
+  - redis-server
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y redis-server
   - mongoimport -d bastogne -c movie --file data/movie.json
   - mongoimport -d bastogne -c genres --file data/genres.json
 
