@@ -2,9 +2,19 @@ language: python
 python:
   - "3.4"
 
-# command to install dependencies
-install: "pip install -r requirements.txt"
+services:
+  - mongodb
 
-# command to run tests
-script: run
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y redis-server
+  - mongoimport -d bastogne -c movie --file data/movie.json
+  - mongoimport -d bastogne -c genres --file data/genres.json
 
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python command/local_image.py
+  - python command/complate_search.py
+  - sh test.sh

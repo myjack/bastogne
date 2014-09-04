@@ -1,11 +1,9 @@
-# Bastogne
+# Bastogne  [![Build Status](https://travis-ci.org/maguowei/bastogne.svg?branch=master)](https://travis-ci.org/maguowei/bastogne)
 
 高清电影下载站
 ---
 
 所有数据采集自imax.im和互联网，仅供学习研究之用。
-
-
 
 
 ## 安装：
@@ -28,7 +26,6 @@
 通过title参数获取电影信息
 
 http://bastogne.chinacloudapp.cn/api/movie?title=阿甘正传
-
 
 
 

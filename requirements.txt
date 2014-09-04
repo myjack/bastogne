@@ -1,5 +1,5 @@
 tornado
 pymongo
 redis
-jieba
+jieba3k
 fabric
