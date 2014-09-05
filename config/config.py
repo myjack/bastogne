@@ -53,11 +53,12 @@ var _hmt = _hmt || [];
 #Google adsense
 ad1 = """
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ad4 -->
+<!-- m_ad1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:250px"
+     style="display:block"
      data-ad-client="ca-pub-7388149537279492"
-     data-ad-slot="5946370724"></ins>
+     data-ad-slot="2245632519"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -65,11 +66,12 @@ ad1 = """
 
 ad2 = """
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ad10 -->
+<!-- m_ad1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
+     style="display:block"
      data-ad-client="ca-pub-7388149537279492"
-     data-ad-slot="9735721717"></ins>
+     data-ad-slot="2245632519"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
@@ -77,11 +79,12 @@ ad2 = """
 
 ad3 = """
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- ad1 -->
+<!-- m_ad1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:block"
      data-ad-client="ca-pub-7388149537279492"
-     data-ad-slot="6392378150"></ins>
+     data-ad-slot="2245632519"
+     data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
