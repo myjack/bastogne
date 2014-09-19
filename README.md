@@ -21,11 +21,15 @@
 
 * 使用`tools/local_image.py` 工具将movie['image']修改为演示站点图片源（不保证永久有效）
 
+## 静态资源依赖
+
+`bower install`
+
 #### api
 
-通过title参数获取电影信息
+通过`title`参数获取电影信息
 
-http://bastogne.chinacloudapp.cn/api/movie?title=阿甘正传
+`http://bastogne.chinacloudapp.cn/api/movie?title=阿甘正传`
 
 
 
