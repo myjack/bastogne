@@ -1,5 +1,5 @@
 import tornado.web
-from config.config import conf, tongji_code, ad_code
+from config.settings import conf, tongji_code, ad_code
 
 
 class Genres(tornado.web.UIModule):

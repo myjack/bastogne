@@ -1,5 +1,5 @@
 import tornado.web
-from config.config import conf
+from config.settings import conf
 
 
 class BaseHandler(tornado.web.RequestHandler):

@@ -5,7 +5,7 @@ import tornado.httpserver
 import tornado.web
 import tornado.options
 from tornado.options import define, options
-from config.config import settings, redis as redis_conf
+from config.settings import settings, redis as redis_conf
 from config.urls import urls as handlers
 from uimodules import uimodules
 
