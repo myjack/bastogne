@@ -5,7 +5,7 @@ import json
 import jieba
 from pymongo import MongoClient
 import redis
-from config.config import redis as redis_conf
+from config.settings import redis as redis_conf
 
 
 r = redis.StrictRedis(**redis_conf)
